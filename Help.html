@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help - OBE System</title>
+    <link rel="stylesheet" type="text/css" href="Help_CSS.css">
+
+</head>
+<body>
+    <div class="header">
+        <img src="/assets/DYP_Logo.png" alt="College Logo">
+        <h1>Department Of CSE (Data Science)</h1>
+        <img src="obe_logo.png" alt="OBE System Logo">
+    </div>
+    <div class="nav">
+        <a href="dashboard.html">Dashboard</a>
+        <a href="department.html">Department</a>
+        <a href="OBE_Report.html">OBE Reports</a>
+        <a href="help.html">Help</a>
+        <a href="logout.html">Logout</a>
+    </div>
+    
+    <div class="container">
+        <h2>Help Section</h2>
+        
+        <div class="faq">
+            <button onclick="toggleFaq(0)">What is OBE?</button>
+            <div class="faq-content">Outcome-Based Education (OBE) focuses on what students should achieve by the end
+                of a course, emphasizing skills and real-world application. It uses clearly defined
+                learning outcomes to design teaching methods and assessments. OBE ensures
+                continuous improvement and prepares students for career success.</div>
+        </div>
+        
+        <div class="faq">
+            <button onclick="toggleFaq(1)">How is OBE different from traditional education?</button>
+            <div class="faq-content">Traditional education focuses on content delivery, while OBE emphasizes achieving measurable learning outcomes by aligning assessments and teaching methods with specific objectives.</div>
+        </div>
+        
+        <div class="faq">
+            <button onclick="toggleFaq(2)">What is CO-PO Mapping and Attainment Level?</button>
+            <div class="faq-content">CO-PO Mapping is the process of linking Course Outcomes (COs) with Program Outcomes (POs) to ensure that the courses contribute to achieving the overall program objectives. It helps in assessing whether students are acquiring the necessary knowledge and skills as per the curriculum.</div>
+        </div>
+
+        <div class="faq">
+            <button onclick="toggleFaq(3)">How to do CO-PO Mapping?</button>
+            <div class="faq-content"></div>
+        </div>
+
+        <div class="faq">
+            <button onclick="toggleFaq(4)">What is CO-PO Mapping and Attainment Level?</button>
+            <div class="faq-content">CO-PO Mapping is the process of linking Course Outcomes (COs) with Program Outcomes (POs) to ensure that the courses contribute to achieving the overall program objectives. It helps in assessing whether students are acquiring the necessary knowledge and skills as per the curriculum.</div>
+        </div>
+
+        <div class="faq">
+            <button onclick="toggleFaq(5)">What is CO-PO Mapping and Attainment Level?</button>
+            <div class="faq-content">CO-PO Mapping is the process of linking Course Outcomes (COs) with Program Outcomes (POs) to ensure that the courses contribute to achieving the overall program objectives. It helps in assessing whether students are acquiring the necessary knowledge and skills as per the curriculum.</div>
+        </div>
+
+        <div class="faq">
+            <button onclick="toggleFaq(6)">What is CO-PO Mapping and Attainment Level?</button>
+            <div class="faq-content">CO-PO Mapping is the process of linking Course Outcomes (COs) with Program Outcomes (POs) to ensure that the courses contribute to achieving the overall program objectives. It helps in assessing whether students are acquiring the necessary knowledge and skills as per the curriculum.</div>
+        </div>
+
+        <div class="faq">
+            <button onclick="toggleFaq(7)">What is CO-PO Mapping and Attainment Level?</button>
+            <div class="faq-content">CO-PO Mapping is the process of linking Course Outcomes (COs) with Program Outcomes (POs) to ensure that the courses contribute to achieving the overall program objectives. It helps in assessing whether students are acquiring the necessary knowledge and skills as per the curriculum.</div>
+        </div>
+    </div>
+    
+    <script>
+        function toggleFaq(index) {
+            var contents = document.querySelectorAll('.faq-content');
+            contents[index].style.display = contents[index].style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+</body>
+</html>
